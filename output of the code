@@ -1,0 +1,22 @@
+Accuracy: 1.0
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        10
+           1       1.00      1.00      1.00         9
+           2       1.00      1.00      1.00        11
+
+    accuracy                           1.00        30
+   macro avg       1.00      1.00      1.00        30
+weighted avg       1.00      1.00      1.00        30
+Here's what the output means:
+
+The accuracy is 1.0, which indicates that the Decision Tree classifier correctly classified all the samples in the test dataset.
+
+The classification report provides precision, recall, and F1-score for each class (0, 1, and 2), as well as macro and weighted averages. Since the accuracy is 1.0, you'll see that all precision, recall, and F1-score values are 1.00 for each class, indicating perfect classification.
+
+Keep in mind that due to random splitting of the data, the exact numbers in the output may vary, but you should expect high accuracy and F1-scores since the Iris dataset is relatively easy to classify.
+
+
+
+
+
